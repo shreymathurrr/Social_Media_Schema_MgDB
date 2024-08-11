@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "66b9043ec601ebe0ca217ca1"
+  },
+  "userId": {
+    "$oid": "66b8d15183011374f2c682de"
+  },
+  "postId": {
+    "$oid": "66b90397c601ebe0ca217ca0"
+  },
+  "content": "This is a test comment",
+  "created_at": {
+    "$date": "2024-08-11T18:34:38.038Z"
+  }
+}]

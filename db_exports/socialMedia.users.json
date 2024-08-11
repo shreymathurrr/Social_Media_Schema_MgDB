@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "66b8d15183011374f2c682de"
+  },
+  "name": "Harry Doe",
+  "email": "harry@example.com",
+  "password": "password123",
+  "friend_requests": {
+    "sent": [
+      {
+        "$oid": "66b8d1aa83011374f2c682df"
+      }
+    ]
+  },
+  "friends": [
+    {
+      "$oid": "66b8d1aa83011374f2c682df"
+    },
+    {
+      "$oid": "66b8d915c601ebe0ca217c9c"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66b8d1aa83011374f2c682df"
+  },
+  "name": "Akhil Yadav",
+  "email": "ak@example.com",
+  "password": "password123444",
+  "friend_requests": {
+    "received": [
+      {
+        "$oid": "66b8d15183011374f2c682de"
+      }
+    ]
+  },
+  "friends": [
+    {
+      "$oid": "66b8d15183011374f2c682de"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66b8d915c601ebe0ca217c9c"
+  },
+  "name": "John Twark",
+  "email": "john@yahoo.com",
+  "password": "password1223453",
+  "friend_requests": {
+    "received": []
+  },
+  "friends": [
+    {
+      "$oid": "66b8d15183011374f2c682de"
+    }
+  ]
+}]

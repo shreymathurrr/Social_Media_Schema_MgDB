@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "66b90397c601ebe0ca217ca0"
+  },
+  "userId": {
+    "$oid": "66b8d1aa83011374f2c682df"
+  },
+  "content": "This is a sample post take this seriously.",
+  "created_at": {
+    "$date": "2024-08-11T18:31:51.098Z"
+  }
+}]
